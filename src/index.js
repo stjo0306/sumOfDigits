@@ -5,9 +5,9 @@ const readline = require('readline');
 const rl = readline.createInterface(process.stdin, process.stdout);
 
 // manage user input
-rl.setPrompt('please enter a number (or type \'exit\' to exit) >');
+rl.setPrompt('please enter a number (or type \'exit()\' to exit) >');
 rl.on('line', (input) => {
-  if (input === 'exit') {
+  if (input === 'exit()') {
     process.exit();
   }
   try {
