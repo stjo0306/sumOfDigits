@@ -5,10 +5,11 @@
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {
+    "build:all": "pkg . --out-path dist/",
+    "build:windows": "pkg . --out-path dist/ -t node14-win",
+    "clean": "rimraf dist/",
     "start": "node src/index.js",
-    "test": "node src/index.js 123456",
-    "build": "pkg --out-path dist/ .",
-    "clean": "rimraf dist/"
+    "test": "node src/index.js 123456"
   },
   "author": "john steckelberg",
   "license": "ISC",
