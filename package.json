@@ -1,0 +1,12 @@
+{
+  "name": "sumofdigits",
+  "version": "1.0.0",
+  "description": "This code was put together using   NodeJS v14.20.0   npm v6.14.17",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "john steckelberg",
+  "license": "ISC"
+}
